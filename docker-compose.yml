@@ -1,0 +1,13 @@
+version: "2"
+services:
+  samba:
+    image: lordpedal/samba
+    container_name: Samba
+    volumes:
+      - '~/docker/samba/compartido:/lordpedal'
+    ports:
+      - "137:137"
+      - "138:138"
+      - "139:139"
+      - "445:445"
+    restart: always
