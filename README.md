@@ -4,7 +4,7 @@
 
 ### Primer paso
 
-Importante antes de comenzar habilitar permisos de escritura/lectura en carpeta compartida: 
+**¡Importante!** antes de comenzar habilitar permisos de escritura/lectura en carpeta compartida: 
 
 ```
 mkdir -p $HOME/docker/samba/compartido && \
